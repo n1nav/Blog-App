@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-panel {
+  border-right: 1px solid #ccc;
+  background-color: lightblue;
+}
+
+.table-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.selected-blog {
+  margin-top: 20px;
+}
+
+.right-panel {
+  background-color: lightgreen;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
